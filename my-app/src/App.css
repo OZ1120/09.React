@@ -1,1 +1,12 @@
 .red{ color: red;}
+
+.info{
+  border: 2px solid green;
+  margin: 10px;
+  width: 400px;
+  padding: 5px;
+}
+
+.count-countainer> *{
+  margin: 0 10px;
+}
