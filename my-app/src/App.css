@@ -1,12 +1,15 @@
-.red{ color: red;}
+.red{ color : red; }
 
 .info{
   border: 2px solid green;
   margin: 10px;
-  width: 400px;
   padding: 5px;
+  width: 400px;
 }
 
-.count-countainer> *{
+.count-container{
+  display: flex;
+}
+.count-container > *{
   margin: 0 10px;
 }

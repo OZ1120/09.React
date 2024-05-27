@@ -16,6 +16,8 @@ import Props3 from './components/R05_Props3';
 import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
 
+import State3 from './components/R08_State3';
+
 function App() {
 
   /* (중요!) 
@@ -41,9 +43,11 @@ function App() {
 
 
 
-      <State1/>
+      {/* <State1/>
       <hr/>
-      <State2 init="10" step="5"/>
+      <State2 init="10" step="5"/> */}
+
+      <State3/>
 
 
     </>
