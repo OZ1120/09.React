@@ -21,6 +21,8 @@ import State3 from './components/R08_State3';
 import Context1 from './components/R09_Context1';
 import Context2 from './components/R10_Context2';
 
+import Context3 from './components/R11_Context3/Parent';
+
 function App() {
 
   /* (중요!) 
@@ -53,12 +55,12 @@ function App() {
       {/* <State3/> */}
 
 
-      <Context1/>
+      {/* <Context1/>
       <hr/>
-      <Context2/>
+      <Context2/> */}
 
 
-
+      <Context3/>
 
 
 
