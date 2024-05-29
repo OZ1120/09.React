@@ -51,12 +51,12 @@ function App() {
       <hr/>
       <State2 init="10" step="5"/> */}
 
-      <State3/>
+      {/* <State3/> */}
 
 
-      {/* <Context1/>
+      <Context1/>
       <hr/>
-      <Context2/> */}
+      <Context2/>
 
 
       {/* <Context3/> */}
