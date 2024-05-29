@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react' // props는 내장되어있어 따로 import필요없음
 
 /* props 예제 1(함수형 컴포넌트)
-* @pr props : 부모 -> 자식 컴포넌트로 데이터 전달 시 사용하는 객체
+* @param {*} props : 부모 -> 자식 컴포넌트로 데이터 전달 시 사용하는 객체 (k:v형태)
 */
 // 함수형 컴포넌트 정의
 const PropsEx1 = (props) => {

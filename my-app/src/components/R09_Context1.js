@@ -1,6 +1,6 @@
 import React,{createContext,useContext} from 'react'
 
-//Context를 저장하는 변수명은 무조건 대분자 시작
+//Context를 저장하는 변수명은 무조건 대문자 시작
 /* 1. Context 객체 생성 */
 const TestContext = createContext();
 

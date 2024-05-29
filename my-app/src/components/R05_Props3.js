@@ -4,6 +4,7 @@ import React from 'react'
 // ㄴ ChildComponent(자식)
 //  ㄴ GrandChildComponenet(후손)
 
+// ::후손 컴포넌트는 자식 컴포넌트보다 위에 써야함!!
 
 // 후손 컴포넌트
 const GrandChildComponenet = (props) => {
@@ -31,8 +32,12 @@ const ChildComponent = (props) => {
       */}
       <GrandChildComponenet 
         name = {props.name} 
-        age  = {props.name === '김영희' ? 20 : 25}
+        age  = {props.name === '김영희' ? 20 : 25} // 김영희 이면 20, 김영희 아니면 25
         />
+        {/* 리액트에서는 ==(동등비교연산)을 권장하지 않음(컴파일 시 에러가 난다)
+            ===(동일비교연산, 타입까지 다 같은 것)을 권장한다
+            리액트에서는 타입스크립트도 사용한다. (자료형의 애매함을 없애줌)
+            */}
     </>
   )
 

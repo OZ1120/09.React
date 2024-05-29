@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; // imrs ->자동완성
 
-// State : 컴포넌트의 상태(전역 변수)
+// State : 컴포넌트의 상태를 관리함(전역 변수)
 
 // useState() 함수
 // - 컴포넌트의 상태(State) 값이 변하게 될 경우

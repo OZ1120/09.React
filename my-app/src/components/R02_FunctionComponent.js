@@ -1,9 +1,14 @@
+// :: 함수형은 컴포넌트 안씀
 import React, {useState} from "react"; // imr -> 자동완성
 
 
 const ClickCount = () => {
 
   const [count,setCount] = useState(0);
+   /* 변수 두개 선언
+    useState 함수 호출하면 배열 반환되고
+    배열 0은 count, 1은 setCount
+   */
 
   return(
     <div>
@@ -28,7 +33,7 @@ const FunctionEx = () => {
 
       <hr/>
 
-      <ClickCount/>
+      <ClickCount/> {/* 태그형식으로 적으면 여기 랜더링 */}
     </>
   );
 }

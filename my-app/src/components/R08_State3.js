@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 /*  자식 컴포넌트  */
 const ChildId = (props) => {
   // const handler = props.handler;
-  const {handler} = props;
+  const {handler} = props; // props의 변수명과 같으면 자동으로 들어감(순수js)
   console.log(handler); // handler 확인
 
    return(
