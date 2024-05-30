@@ -1,0 +1,15 @@
+.Nnumer-container>*{
+  margin: 5px;
+}
+
+.Nnumer-container>button{
+  border-radius: 5px;
+}
+
+.Nnumer-container>.cyan{
+  background-color: cyan;
+}
+
+.Nnumer-container>.magenta{
+  background-color: magenta;
+}

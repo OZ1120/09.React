@@ -34,29 +34,29 @@ function App() {
     /* fragment(<> </>) : 반환되는 요소(컴포넌트)를 묶는 용도, 해석 X */
     <>
       {/* ClassComponent를 현재 위치에 렌더링 */}
+{/* 
+      <ClassComponent/> 
+      <FunctionComponent/>
 
-      {/* <ClassComponent/>  */}
-      {/* <FunctionComponent/> */}
-
-      {/* <Props1 num='1' name='홍길동' age='20' score='90'/> */}
-      {/* <Props1 num='2' name='강찬혁' age='999' score='70'/> */}
+      <Props1 num='1' name='홍길동' age='20' score='90'/>
+      <Props1 num='2' name='강찬혁' age='999' score='70'/>
       
-      {/* <Props2 name='강감찬' age='72' gender='남자' />
+      <Props2 name='강감찬' age='72' gender='남자' />
       <Props2 name='천추태후' age='66' gender='여자' />
       <Props3 name='고길동'/>
       <Props3 name='김영희'/> */}
 
 
-      {/* <State1/>
+      <State1/>
       <hr/>
-      <State2 init="10" step="5"/> */}
+      <State2 init="10" step="5"/>
 
-      {/* <State3/> */}
+      <State3/>
 
 
-      <Context1/>
+      {/* <Context1/>
       <hr/>
-      <Context2/>
+      <Context2/> */}
 
 
       {/* <Context3/> */}
